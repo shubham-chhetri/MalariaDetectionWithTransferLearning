@@ -1,2 +1,2 @@
 # MalariaDetectionWithTransferLearning
-Use of Deep Learning and Transfer Learning along with Image Generator
+Web app for Malaria Detection using Deep Learning and Transfer Learning along with Image Generator and Flask.
