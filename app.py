@@ -41,9 +41,6 @@ def model_predict(img_path, model):
     x=x/255
     x = np.expand_dims(x, axis=0)
    
-
-    # Be careful how your trained model deals with the input
-    # otherwise, it won't make correct prediction!
     x = preprocess_input(x)
 
     preds = model.predict(x)
